@@ -90,7 +90,7 @@ public class RewriteMe {
                         Collectors.groupingBy(Question::getCategory,
                                 Collectors.mapping(Question::getQuestionString, Collectors.toList())));
 
-        //Had a friend help me with line 90, so leaving my own original solution below so I'm not a cheater :)
+        //Had a friend help me with line 91, so leaving my own original solution below so I'm not a cheater :)
 /*        Map<Category, List<String>> temp = new HashMap<>();
         questions.stream()
                 .map(Question::getCategory)
